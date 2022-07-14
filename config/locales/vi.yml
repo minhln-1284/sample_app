@@ -26,6 +26,14 @@ vi:
       contact_content: "Để có thêm thông tin, liên hệ tới"
       contact_target: "trang web tutorial"
   users:
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
+    following:
+      following: "Đang theo dõi"
+    followers:
+      followers: "Người theo dõi"
     form:
       new_title: "Đăng ký"
       new_header: "Form đăng ký"

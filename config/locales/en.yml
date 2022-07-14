@@ -26,6 +26,14 @@ en:
       contact_content: "More information, contact us"
       contact_target: "Contact page"
   users:
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    following:
+      following: "Following"
+    followers:
+      followers: "Followers"
     form:
       new_title: "Signup"
       new_header: "Register Form"

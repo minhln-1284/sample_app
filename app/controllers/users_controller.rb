@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
-  before_action :logged_in_user, only: %i(index edit update destroy)
+  before_action :logged_in_user,
+                only: %i(index edit update destroy)
 
   before_action :find_user, except: %i(index new create)
 
