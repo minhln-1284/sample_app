@@ -5,4 +5,8 @@ module UsersHelper
     image_tag("https://secure.gravatar.com/avatar/#{gravatar_id}?s=#{size}",
               alt: user.name, class: "gravatar")
   end
+
+  def find_following
+    current_user.active_relationships.find_by followed_id: @user.id
+  end
 end

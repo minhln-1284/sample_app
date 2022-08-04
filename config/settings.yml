@@ -29,3 +29,5 @@ micropost:
   accept_image: "image/jpeg,image/gif,image/png"
   content_type: <%= %w(image/jpeg image/gif image/png) %>
   file_size: 5
+gravatar:
+  user_size: 30
